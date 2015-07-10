@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Yadiel/.nvm/v0.10.38/bin/node',
+1 verbose cli   '/Users/Yadiel/.nvm/v0.10.38/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Yadiel/Sites/tpipr-test',
+5 verbose install   [ 'laravel-elixir', 'bootstrap-sass', 'jquery', 'gulp' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping laravel-elixir@^2.0.0 /Users/Yadiel/Sites/tpipr-test
+9 verbose already installed skipping bootstrap-sass@^3.0.0 /Users/Yadiel/Sites/tpipr-test
+10 verbose cache add [ 'jquery@^1.11.0', null ]
+11 verbose cache add name=undefined spec="jquery@^1.11.0" args=["jquery@^1.11.0",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'jquery@^1.11.0',
+12 verbose parsed url   path: 'jquery@^1.11.0',
+12 verbose parsed url   href: 'jquery@^1.11.0' }
+13 verbose already installed skipping gulp@^3.8.8 /Users/Yadiel/Sites/tpipr-test
+14 verbose cache add name="jquery" spec="^1.11.0" args=["jquery","^1.11.0"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '^1.11.0',
+15 verbose parsed url   path: '^1.11.0',
+15 verbose parsed url   href: '^1.11.0' }
+16 verbose addNamed [ 'jquery', '^1.11.0' ]
+17 verbose addNamed [ null, '>=1.11.0-0 <2.0.0-0' ]
+18 silly lockFile 7cb1e945-jquery-1-11-0 jquery@^1.11.0
+19 verbose lock jquery@^1.11.0 /Users/Yadiel/.npm/7cb1e945-jquery-1-11-0.lock
+20 silly addNameRange { name: 'jquery', range: '>=1.11.0-0 <2.0.0-0', hasData: false }
+21 verbose request where is /jquery
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 0aa4a43f11ed4c2d
+24 verbose url raw /jquery
+25 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+26 verbose url resolved https://registry.npmjs.org/jquery
+27 verbose request where is https://registry.npmjs.org/jquery
+28 info trying registry request attempt 1 at 00:05:31
+29 http GET https://registry.npmjs.org/jquery
+30 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+31 info trying registry request attempt 2 at 00:05:41
+32 http GET https://registry.npmjs.org/jquery
+33 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+34 info trying registry request attempt 3 at 00:06:41
+35 http GET https://registry.npmjs.org/jquery
+36 silly lockFile 7cb1e945-jquery-1-11-0 jquery@^1.11.0
+37 silly lockFile 7cb1e945-jquery-1-11-0 jquery@^1.11.0
+38 error network getaddrinfo ENOTFOUND
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 error System Darwin 14.3.0
+40 error command "/Users/Yadiel/.nvm/v0.10.38/bin/node" "/Users/Yadiel/.nvm/v0.10.38/bin/npm" "install"
+41 error cwd /Users/Yadiel/Sites/tpipr-test
+42 error node -v v0.10.38
+43 error npm -v 1.4.28
+44 error syscall getaddrinfo
+45 error code ENOTFOUND
+46 error errno ENOTFOUND
+47 verbose exit [ 1, true ]

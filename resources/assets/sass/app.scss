@@ -1,2 +1,39 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+$icon-font-path: '../fonts/';
 
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+	padding-top: 20px;
+}
+.white-header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.white-header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+}
+a.glyphicon:hover {
+	text-decoration: none;
+}
+.btn.delete {
+	margin-left: 5px;
+}
+.panel-dashboard {
+	height: 275px;
+	overflow: scroll;
+}
+.table .columns-end {
+	width: 55px;
+}
+.business-card {
+	height: 130px;
+
+	h2 {
+		line-height: 1.2;
+		font-weight: normal;
+		font-size: 18px;
+		margin-top: 0;
+	}
+}

@@ -32,4 +32,12 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    /**
+     * Get the businesses created by the user.
+     */
+    public function businesses()
+    {
+        return $this->hasMany('App\Business');
+    }
 }
